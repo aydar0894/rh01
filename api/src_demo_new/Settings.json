@@ -1,0 +1,14 @@
+{
+  "tradeDate"                 : "25/04/2018"                      ,
+  "nPRIIPsSimulations"        : 10000                             ,
+  "randomSeed"                : 1337                              ,
+  "filename_Mapping"          : "Mapping.json"                    , 
+  "filename_ProductList"      : "list_ProductsToRun_1ProductEach.json" ,
+  "readRandomIndices"         : true                              ,
+  "readRandomIndicesFilename" : "20180425_RandomIndices.csv"      ,
+  "writeProductLog"           : true                              ,
+  "writeProductLogFilename"   : "logfile_products.json"           ,
+  "writePayoffVector"         : false                             ,
+  "writePRIIPsPaths"          : false                             ,
+  "writeRandomIndices"        : false                             
+}

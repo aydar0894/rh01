@@ -1,0 +1,20 @@
+FX-Forward-Deliverable-EUR-USD-Long-0|BuyAmount|10000.0
+FX-Forward-Deliverable-EUR-USD-Long-0|BuyCurrency|EUR
+FX-Forward-Deliverable-EUR-USD-Long-0|FXRate|1.16725
+FX-Forward-Deliverable-EUR-USD-Long-0|Illustrative|1
+FX-Forward-Deliverable-EUR-USD-Long-0|IsReportingCurrencyBullion|FALSE
+FX-Forward-Deliverable-EUR-USD-Long-0|IsSecondaryCurrencyBullion|FALSE
+FX-Forward-Deliverable-EUR-USD-Long-0|NotionalAmount|10000.0
+FX-Forward-Deliverable-EUR-USD-Long-0|PremiumPaymentDate|2018-05-31
+FX-Forward-Deliverable-EUR-USD-Long-0|ProductName|Over the Counter Deliverable FX Forward
+FX-Forward-Deliverable-EUR-USD-Long-0|ReportingCurrency|EUR
+FX-Forward-Deliverable-EUR-USD-Long-0|SecondCurrency|USD
+FX-Forward-Deliverable-EUR-USD-Long-0|SellAmount|11965.8674467032
+FX-Forward-Deliverable-EUR-USD-Long-0|SellCurrency|USD
+FX-Forward-Deliverable-EUR-USD-Long-0|SettlementDate|2019-06-04
+FX-Forward-Deliverable-EUR-USD-Long-0|SettlementExpiration|settlement
+FX-Forward-Deliverable-EUR-USD-Long-0|Subtype|FX-Forward-
+FX-Forward-Deliverable-EUR-USD-Long-0|TableDate|2019-06-04
+FX-Forward-Deliverable-EUR-USD-Long-0|TenorMultiplier|1
+FX-Forward-Deliverable-EUR-USD-Long-0|TenorPeriod|Year
+FX-Forward-Deliverable-EUR-USD-Long-0|TradeDate|2018-05-31

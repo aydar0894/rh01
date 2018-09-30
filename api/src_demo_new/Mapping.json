@@ -1,0 +1,50 @@
+{
+  "FX_Yield" : 
+  {
+    "EURUSD" : 
+    {
+        "EUR" : "EUR-OIS",
+        "USD" : "USD-OIS"
+    },
+    
+    "GBPUSD" : 
+    {
+        "GBP" : "GBP-OIS",
+        "USD" : "USD-OIS"
+    },
+    
+    "XAUUSD" : 
+    {
+        "XAU" : "XAU-OIS",
+        "USD" : "USD-OIS"
+    },
+    
+    "USDINR" : 
+    {
+        "USD" : "USD-OIS",
+        "INR" : "INR-OIS"
+    }
+  },
+  
+  "FX_Vol_ATM" : 
+  {
+    "EUR" : "EUR-ATM",
+    "GBP" : "GBP-ATM",
+    "USD" : "USD-ATM",
+    "XAU" : "USD-ATM"
+  } ,
+
+  "FX_Vol_DeltaRR" : 
+  {
+    "EUR" : "EUR-RR",
+    "GBP" : "GBP-RR",
+    "USD" : "USD-RR"
+  } ,
+  
+  "FX_Vol_DeltaMS" : 
+  {
+    "EUR" : "EUR-MS",
+    "GBP" : "GBP-MS",
+    "USD" : "USD-MS"
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "FX_Forward": [
+  {
+    "ccy_FOR"                : "EUR"         , 
+    "ccy_DOM"                : "USD"         , 
+    "ccy_SET"                : "EUR"         ,
+    "ReceiveCurrency"        : "EUR"         ,
+    "ReceiveAmount"          : 10000.0       ,
+    "PayCurrency"            : "USD"         ,
+    "PayAmount"              : null          ,
+    "T_RHP"                  : "1Y"          ,
+    "positionType"           : "long"        ,
+    "cost_input_perc"        : 0.01          ,
+    "deliveryType"           : "deliverable" ,
+    "MRM"                    : 7             ,
+    "SRI"                    : 7             ,
+    "CRM"                    : 1
+  },
+  {
+    "ccy_FOR"                : "EUR"         , 
+    "ccy_DOM"                : "USD"         , 
+    "ccy_SET"                : "EUR"         ,
+    "ReceiveCurrency"        : "EUR"         ,
+    "ReceiveAmount"          : 10000.0       ,
+    "PayCurrency"            : "USD"         ,
+    "PayAmount"              : null          ,
+    "T_RHP"                  : "1Y"          ,
+    "positionType"           : "short"       ,
+    "cost_input_perc"        : 0.01          ,
+    "deliveryType"           : "deliverable" ,
+    "MRM"                    : 7             ,
+    "SRI"                    : 7             ,
+    "CRM"                    : 1
+  }
+  ],
+  
+  "FX_Swap": [
+  {
+    "ccy_FOR"                : "EUR"         , 
+    "ccy_DOM"                : "USD"         , 
+    "ccy_SET"                : "EUR"         ,
+    "ReceiveCurrencyNearLeg" : "USD"         ,
+    "ReceiveAmountNearLeg"   : null          ,
+    "PayCurrencyNearLeg"     : "EUR"         ,
+    "PayAmountNearLeg"       : 10000.0       ,
+    "ReceiveCurrencyFarLeg"  : "EUR"         ,
+    "ReceiveAmountFarLeg"    : 10000.0       ,
+    "PayCurrencyFarLeg"      : "USD"         ,
+    "PayAmountFarLeg"        : null          ,
+    "T_RHP"                  : "1Y"          ,
+    "positionType"           : "long"        ,
+    "cost_input_perc"        : 0.01          ,
+    "MRM"                    : 7             ,
+    "SRI"                    : 7             ,
+    "CRM"                    : 1
+  },
+  {
+    "ccy_FOR"                : "EUR"         , 
+    "ccy_DOM"                : "USD"         , 
+    "ccy_SET"                : "EUR"         ,
+    "ReceiveCurrencyNearLeg" : "USD"         ,
+    "ReceiveAmountNearLeg"   : null          ,
+    "PayCurrencyNearLeg"     : "EUR"         ,
+    "PayAmountNearLeg"       : 10000.0       ,
+    "ReceiveCurrencyFarLeg"  : "EUR"         ,
+    "ReceiveAmountFarLeg"    : 10000.0       ,
+    "PayCurrencyFarLeg"      : "USD"         ,
+    "PayAmountFarLeg"        : null          ,
+    "T_RHP"                  : "1Y"          ,
+    "positionType"           : "short"       ,
+    "cost_input_perc"        : 0.01          ,
+    "MRM"                    : 7             ,
+    "SRI"                    : 7             ,
+    "CRM"                    : 1
+  }
+  ],
+  
+  "FX_Option": [
+  {
+    "ccy_FOR"                : "EUR"         , 
+    "ccy_DOM"                : "USD"         , 
+    "ccy_SET"                : "EUR"         ,
+    "CallCurrency"           : "EUR"         ,
+    "CallAmount"             : 10000.0       ,
+    "PutCurrency"            : "USD"         ,
+    "PutAmount"              : null          ,
+    "T_RHP"                  : "1Y"          ,
+    "positionType"           : "long"        ,
+    "optionType"             : "Call"        ,
+    "cost_input_perc"        : 0.01          ,
+    "deliveryType"           : "deliverable" ,
+    "MRM"                    : 7             ,
+    "SRI"                    : 7             ,
+    "CRM"                    : 1  
+  },
+  {
+    "ccy_FOR"                : "EUR"         , 
+    "ccy_DOM"                : "USD"         , 
+    "ccy_SET"                : "EUR"         ,
+    "CallCurrency"           : "EUR"         ,
+    "CallAmount"             : 10000.0       ,
+    "PutCurrency"            : "USD"         ,
+    "PutAmount"              : null          ,
+    "T_RHP"                  : "1Y"          ,
+    "positionType"           : "short"       ,
+    "optionType"             : "Call"        ,
+    "cost_input_perc"        : 0.01          ,
+    "deliveryType"           : "deliverable" ,
+    "MRM"                    : 7             ,
+    "SRI"                    : 7             ,
+    "CRM"                    : 1  
+  },
+  
+  {
+    "ccy_FOR"                : "EUR"         , 
+    "ccy_DOM"                : "USD"         , 
+    "ccy_SET"                : "EUR"         ,
+    "CallCurrency"           : "EUR"         ,
+    "CallAmount"             : 10000.0       ,
+    "PutCurrency"            : "USD"         ,
+    "PutAmount"              : null          ,
+    "T_RHP"                  : "1Y"          ,
+    "positionType"           : "long"        ,
+    "optionType"             : "Put"         ,
+    "cost_input_perc"        : 0.01          ,
+    "deliveryType"           : "deliverable" ,
+    "MRM"                    : 7             ,
+    "SRI"                    : 7             ,
+    "CRM"                    : 1
+  },
+  {
+    "ccy_FOR"                : "EUR"         , 
+    "ccy_DOM"                : "USD"         , 
+    "ccy_SET"                : "EUR"         ,
+    "CallCurrency"           : "EUR"         ,
+    "CallAmount"             : 10000.0       ,
+    "PutCurrency"            : "USD"         ,
+    "PutAmount"              : null          ,
+    "T_RHP"                  : "1Y"          ,
+    "positionType"           : "short"       ,
+    "optionType"             : "Put"         ,
+    "cost_input_perc"        : 0.01          ,
+    "deliveryType"           : "deliverable" ,
+    "MRM"                    : 7             ,
+    "SRI"                    : 7             ,
+    "CRM"                    : 1
+  }
+  ],
+  
+  "FX_ODF": [
+  {
+    "ccy_FOR"                : "EUR"         , 
+    "ccy_DOM"                : "USD"         , 
+    "ccy_SET"                : "EUR"         ,
+    "ReceiveCurrency"        : "EUR"         ,
+    "ReceiveAmount"          : 10000.0       ,
+    "PayCurrency"            : "USD"         ,
+    "PayAmount"              : null          ,
+    "T_Intermediate"         : "9M"          ,
+    "T_RHP"                  : "1Y"          ,
+    "positionType"           : "long"        ,
+    "cost_input_perc"        : 0.01          ,
+    "deliveryType"           : "deliverable" ,
+    "MRM"                    : 7             ,
+    "SRI"                    : 7             ,
+    "CRM"                    : 1
+  },
+  
+  {
+    "ccy_FOR"                : "EUR"         , 
+    "ccy_DOM"                : "USD"         , 
+    "ccy_SET"                : "EUR"         ,
+    "ReceiveCurrency"        : "EUR"         ,
+    "ReceiveAmount"          : 10000.0       ,
+    "PayCurrency"            : "USD"         ,
+    "PayAmount"              : null          ,
+    "T_Intermediate"         : "9M"          ,
+    "T_RHP"                  : "1Y"          ,
+    "positionType"           : "short"       ,
+    "cost_input_perc"        : 0.01          ,
+    "deliveryType"           : "deliverable" ,
+    "MRM"                    : 7             ,
+    "SRI"                    : 7             ,
+    "CRM"                    : 1
+  }
+  ],
+  
+  "FX_DCI": [
+  {
+    "ccy_FOR"                : "EUR"               , 
+    "ccy_DOM"                : "USD"               , 
+    "ccy_SET"                : "EUR"               ,
+    "CallCurrency"           : "EUR"               ,
+    "CallAmount"             : 10000.0             ,
+    "PutCurrency"            : "USD"               ,
+    "PutAmount"              : null                ,
+    "T_RHP"                  : "1Y"                ,
+    "DCIType"                : "InterestNotAtRisk" ,
+    "cost_input_perc"        : 0.01                ,
+    "MRM"                    : 7                   ,
+    "SRI"                    : 7                   ,
+    "CRM"                    : 1  
+  },
+  
+  {
+    "ccy_FOR"                : "EUR"               , 
+    "ccy_DOM"                : "USD"               , 
+    "ccy_SET"                : "EUR"               ,
+    "CallCurrency"           : "EUR"               ,
+    "CallAmount"             : 10000.0             ,
+    "PutCurrency"            : "USD"               ,
+    "PutAmount"              : null                ,
+    "T_RHP"                  : "1Y"                ,
+    "DCIType"                : "InterestAtRisk"    ,
+    "cost_input_perc"        : 0.01                ,
+    "MRM"                    : 7                   ,
+    "SRI"                    : 7                   ,
+    "CRM"                    : 1  
+  }
+  ]
+}
