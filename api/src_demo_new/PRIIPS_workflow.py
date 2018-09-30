@@ -485,12 +485,12 @@ def run_workflow(input):
         print('       (*) Favourable, Moderate, Unfavourable')
         for FX_rate, df_paths in dict_paths_FMU.items():
             filename = str_dateIdentifier + "-PATH_FMU_" + FX_rate + ".csv"
-            df_paths.to_csv(os.path.join(script_dir + "\\lib\\", filename), sep=',', header=False, index=False)
+            df_paths.to_csv(os.path.join(script_dir + "/lib", filename), sep=',', header=False, index=False)
 
         print('       (*) Stressed')
         for FX_rate, df_paths in dict_paths_S.items():
             filename = str_dateIdentifier + "-PATH_S_" + FX_rate + ".csv"
-            df_paths.to_csv(os.path.join(script_dir + "\\lib\\", filename), sep=',', header=False, index=False)
+            df_paths.to_csv(os.path.join(script_dir + "/lib", filename), sep=',', header=False, index=False)
 
     ###############################################################################
     #        PRIIPs PATHS - SIMULATE                                              #
