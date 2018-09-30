@@ -44,7 +44,7 @@ def readCurrentMarketData( str_dateIdentifier,
     """
 
 
-    connection_string = 'DRIVER={ODBC Driver 17 for SQL Server};SERVER=10.0.75.1,1433;DATABASE=rh01;UID=sa;PWD=qbasik007;TDS_Version=8.0;'
+    connection_string = 'DRIVER={ODBC Driver 13 for SQL Server};SERVER=127.0.0.1,1433;DATABASE=rh01;UID=sa;PWD=Darqube17;TDS_Version=8.0;'
 
     cnxn = pyodbc.connect(
                          # r'DRIVER={SQL Server};'
@@ -371,7 +371,7 @@ def readHistoricalMarketData( str_dateIdentifier                              ,
     """
     db_name = os.environ.get('DB_NAME')
     pwd = os.environ.get('SA_PASSWORD')
-    connection_string = 'DRIVER={ODBC Driver 17 for SQL Server};SERVER=10.0.75.1,1433;DATABASE=rh01;UID=sa;PWD=qbasik007;TDS_Version=8.0;'
+    connection_string = 'DRIVER={ODBC Driver 13 for SQL Server};SERVER=127.0.0.1,1433;DATABASE=rh01;UID=sa;PWD=Darqube17;TDS_Version=8.0;'
 
     cnxn = pyodbc.connect(
                          # r'DRIVER={FreeTDS};'
